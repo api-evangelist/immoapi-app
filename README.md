@@ -64,5 +64,132 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-immoapi-app is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://immoapi.app/
+Immo API provides a public REST and MCP API delivering official French real‑estate transaction data (DVF – Demandes de Valeurs Foncières). Users can query property sales, prices per square meter, and statistical information by commune, department or region. The service offers detailed documentation, pricing plans, guides, and a blog, and is hosted in France. It aims to facilitate developers, analysts, and public‑sector applications needing up‑to‑date property transaction data.
+
+**Areas:** Real Estate · France · Data · API · Open Data · Property
+
+## immoapi-app on APIs.io
+
+Everything profiled for immoapi-app is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/immoapi-app/](https://apis.io/providers/immoapi-app/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Immo API DVF](https://apis.io/apis/immoapi-app/immo-api-dvf/) — Public API providing French real‑estate transaction data (DVF).
+- [immoapi-app API](https://apis.io/apis/immoapi-app/immoapi-app-api/) — immoapi-app API as documented publicly: 5 operations. Contract generated from the documentation by API Evangelist (2026-10-30); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (5)
+
+The data models the API reads and writes.
+
+- [GetApiMutationsNearbyResponse](https://apis.io/schemas/immoapi-app/immoapi-app-get-api-mutations-nearby-response/)
+- [GetApiMutationsResponse](https://apis.io/schemas/immoapi-app/immoapi-app-get-api-mutations-response/)
+- [GetApiStatsResponse](https://apis.io/schemas/immoapi-app/immoapi-app-get-api-stats-response/)
+- [PostApiMcpRequest](https://apis.io/schemas/immoapi-app/immoapi-app-post-api-mcp-request/)
+- [PostApiMutationsRequest](https://apis.io/schemas/immoapi-app/immoapi-app-post-api-mutations-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Immoapi App Context](https://apis.io/jsonld/immoapi-app/immoapi-app-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [immoapi-app API Rules](https://apis.io/rules/immoapi-app/immoapi-app-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Immoapi App Authentication](https://apis.io/security/immoapi-app/immoapi-app-authentication/)
+- [Immoapi App Domain Security](https://apis.io/security/immoapi-app/immoapi-app-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Immoapi App Scopes](https://apis.io/scopes/immoapi-app/immoapi-app-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Immoapi App Plans Pricing](https://apis.io/plans/immoapi-app/immoapi-app-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Immoapi App Rate Limits](https://apis.io/rate-limits/immoapi-app/immoapi-app-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://immoapi.app/)
+- [Documentation](https://immoapi.app/documentation)
+- [Getting started](https://immoapi.app/guides)
+- [API reference](https://immoapi.app/documentation)
+- [Pricing](https://immoapi.app/tarifs)
+- [Blog](https://immoapi.app/blog)
+
+## API Evangelist rating
+
+**Kin Score 50.5** — developing · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 54.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 18.9 |
+| Developer ergonomics | 42.9 |
+| Access clarity | 42.6 |
+
+**Agent readiness 44.8** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 26.5** — Government & Public Sector
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/immoapi-app/](https://apis.io/providers/immoapi-app/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for immoapi-app: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/immoapi-app/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
